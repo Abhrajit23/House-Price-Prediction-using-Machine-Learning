@@ -2,41 +2,41 @@
 By: Abhrajit Das
 
 🔍 Project Overview
-This project uses regression models to predict house prices based on multiple input variables such as the number of bedrooms, square footage, location, and more. The aim is to empower real estate stakeholders with accurate valuation models.
+This project uses regression models to predict house prices based on input features like square footage, location, and number of rooms. It’s designed to support real estate decision-making with data-driven valuation.
 
 📌 Problem Statement
-Estimating house prices is often subjective and prone to bias. A data-driven prediction model can help homeowners, buyers, and investors make more informed decisions in real estate transactions.
+House price estimation often suffers from inconsistency and subjectivity. This project addresses that by building reliable machine learning models that predict property value with high accuracy.
 
 ✅ Solution Approach
-Performed extensive Exploratory Data Analysis (EDA)
+Conducted thorough exploratory data analysis (EDA)
 
-Preprocessed data with feature scaling and encoding
+Cleaned and preprocessed the dataset (scaling, encoding, etc.)
 
-Trained and evaluated multiple regression algorithms
+Trained and compared multiple regression models
 
-Visualized model performance and feature impact
+Visualized feature importance and residuals
 
 📂 Dataset Highlights
-The dataset includes key attributes like:
+Features include:
 
-Number of bedrooms and bathrooms
+Bedrooms, bathrooms
 
-Living area square footage
+Square footage (living, lot)
 
-Zip code and location
+Zip code, year built
 
-Year built, renovation status
+Renovation status
 
-Target variable: house sale price
+Target: Sale Price
 
-🤖 Models Used
+🤖 Models Implemented
 Linear Regression
 
 Random Forest Regressor
 
 XGBoost Regressor
 
-Lasso and Ridge Regression
+Lasso & Ridge Regression
 
 📊 Evaluation Metrics
 Mean Absolute Error (MAE)
@@ -45,16 +45,18 @@ Mean Squared Error (MSE)
 
 R² Score
 
-Residual Plots & Prediction Accuracy Visualizations
+Residual & Actual vs. Predicted Plots
 
-⚙️ Tools & Technologies
+⚙️ Tools & Libraries
 Python
 
-Pandas, NumPy, Matplotlib, Seaborn
+Pandas, NumPy
 
 Scikit-learn
 
+Matplotlib, Seaborn
+
 XGBoost
 
-📈 Key Takeaway
-The XGBoost Regressor delivered the best performance with high R² score and minimal error, demonstrating the power of ensemble learning in real estate analytics.
+💡 Key Takeaways
+XGBoost outperformed other models with the highest R² and lowest error metrics, validating its strength in structured data scenarios like real estate analytics.
